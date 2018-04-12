@@ -25,5 +25,9 @@ class Board
     @cells.all?{|square| square != " " }
   end
 
+  def turn_count
+    @cells.count{|square| square != " " }
+  end
+
 
 end
