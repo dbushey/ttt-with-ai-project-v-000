@@ -6,7 +6,7 @@ class Board
   #   board.cells
   # end
 
-  def initialize(cells)
+  def initialize
     reset!
   end
 
