@@ -7,7 +7,7 @@ class Board
   # end
 
   def reset!
-  
+    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
 
