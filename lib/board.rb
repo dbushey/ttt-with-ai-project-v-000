@@ -33,5 +33,9 @@ class Board
     @cells[input.to_i - 1] != " "
   end
 
+  def valid_move?(input)
+    !position_taken?(input.to_i - 1) && input.between?(1,9)
+  end
+
 
 end
