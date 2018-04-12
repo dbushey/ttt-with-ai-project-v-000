@@ -12,8 +12,7 @@ class Board
   end
 
   def reset!
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  end
+    @board.cells = " "
 
 
 end
