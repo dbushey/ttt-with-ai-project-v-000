@@ -3,7 +3,7 @@ class Board
 
   def initialize
     board = Board.new
-    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
   def reset
