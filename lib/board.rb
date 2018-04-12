@@ -37,5 +37,9 @@ class Board
     !taken?(input.to_i - 1) && input.between?(1,9)
   end
 
+  def update(index, token)
+    @cells[input.to_i - 1] = token
+  end
+
 
 end
