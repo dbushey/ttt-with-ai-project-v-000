@@ -7,13 +7,11 @@ class Board
   # end
 
   def initialize(cells)
-    
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
+    reset!
   end
 
   def reset!
-    @board.cells = " "
+    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
 
