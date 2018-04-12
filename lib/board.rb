@@ -6,10 +6,10 @@ class Board
   #   board.cells
   # end
 
-  # def initialize
-  #   board = Board.new
-  #   #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  # end
+  def initialize
+    board = Board.new
+  
+  end
 
   def reset!
     board.cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
