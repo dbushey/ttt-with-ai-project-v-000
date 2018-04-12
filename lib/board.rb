@@ -13,6 +13,7 @@ class Board
 
   def reset!
     @board.cells = " "
+  end
 
 
 end
