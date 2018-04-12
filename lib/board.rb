@@ -8,7 +8,7 @@ class Board
 
   def initialize
     reset!
-    @cells = Array.new(9)
+    @cells = Array.new(9, " ")
   end
 
   def reset!
