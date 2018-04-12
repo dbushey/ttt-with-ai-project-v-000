@@ -37,7 +37,7 @@ class Board
     !taken?(input.to_i - 1) && input.between?(1,9)
   end
 
-  def update(input, player)
+  def update(input, "player", :token => "X")
     @cells[input.to_i - 1] = player
   end
 
