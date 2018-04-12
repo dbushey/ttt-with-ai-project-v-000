@@ -29,5 +29,9 @@ class Board
     @cells.count{|square| square != " " }
   end
 
+  def position_taken?(index)
+    @board[index] != " "
+  end
+
 
 end
