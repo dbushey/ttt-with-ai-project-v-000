@@ -7,7 +7,7 @@ class Board
   # end
 
   def initialize
-    board = Board.new
+    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   
   end
 
