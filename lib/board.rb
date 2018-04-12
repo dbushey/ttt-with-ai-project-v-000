@@ -6,9 +6,9 @@ class Board
   #   #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   # end
 
-  # def reset
-  #
-  # end
+  def reset!
+  
+  end
 
 
 end
